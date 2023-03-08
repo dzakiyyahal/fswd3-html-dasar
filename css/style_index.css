@@ -1,0 +1,31 @@
+body {
+    background: white;
+}
+
+section, article, footer {
+    margin: 30px;
+}
+
+header {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: beige;
+    margin: 0px;
+}
+
+header > b {
+    color: #065576;
+    margin: 20px;
+}
+
+nav > a {
+    margin: 20px 12px 0px 12px;
+    text-decoration: none;
+    color: rgb(34, 99, 203);
+    font-size: 15px;
+}
